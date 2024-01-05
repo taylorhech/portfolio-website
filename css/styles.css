@@ -18,6 +18,7 @@ Secondary Color (Blue) #416aa3;
     --font-size: 16px;
     --line-height: 1.25;
 }
+
 a {
     color: var(--primary-color);
 }
