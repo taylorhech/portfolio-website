@@ -19,6 +19,26 @@ Secondary Color (Blue) #416aa3;
     --line-height: 1.25;
 }
 
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+}
+
+.contact-section {
+    text-align: center;
+    width: 50%;
+    padding: 25px;
+    margin: auto;
+}
+
+/* .contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} */
+
 a {
     color: var(--primary-color);
 }
@@ -164,17 +184,17 @@ button:hover, button:focus,
 }
 
 /* start grid fallback */
-.grid__item {
+/* .grid__item {
     display: inline-block;
     width: 33%;
-}
+} */
 /* end grid fallback */
 
-@supports (display: grid) {
+/* @supports (display: grid) {
     .grid {
-        display: grid;
+        display: grid; */
         /* grid-template-columns: 300px 300px 300px; fractions are better than pixels - they are responsive */
-        grid-template-columns: 1fr 1fr 1fr;
+        /* grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
         margin: 0;
     }
@@ -190,7 +210,7 @@ button:hover, button:focus,
         grid-column: 3 / 3;
         grid-row: 1 / 3;
     }    
-}
+} */
 
 /* mobile first */
 .grid {
