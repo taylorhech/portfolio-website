@@ -39,6 +39,15 @@ Secondary Color (Blue) #416aa3;
     align-items: center;
 } */
 
+.contact-section__item {
+    text-align: center;
+    width: 75%;
+    padding: 15px;
+    margin: auto;
+    border: 10px outset var(--gridbackground-color);
+    background-color: whitesmoke;
+}
+
 a {
     color: var(--primary-color);
 }
